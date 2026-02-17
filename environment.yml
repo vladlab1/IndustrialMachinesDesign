@@ -1,0 +1,17 @@
+name: IndustrialMachinesDesign
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - jupyter
+  - ipykernel
+  - pip:
+    - torch
+    - diffusers
+    - transformers
+    - accelerate
+    - safetensors
+    - Pillow
+    - ipywidgets
